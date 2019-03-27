@@ -1,3 +1,3 @@
 
---3
-DELETE FROM `books` WHERE `books`.`bookId` = 10“
+--1
+DELETE FROM `books` WHERE `books`.`bookId` = 10;

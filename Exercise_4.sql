@@ -18,4 +18,4 @@ DELETE FROM authors WHERE `authors`.authorId IN (
 			RIGHT JOIN authors ON `authors`.authorId=`books`.authorId
 			WHERE `books`.bookId IS NULL 
     ) AS aa
-)
+);
